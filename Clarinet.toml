@@ -1,0 +1,47 @@
+[project]
+name = 'Farm-Investment-Contraacts'
+description = ''
+authors = []
+telemetry = true
+cache_dir = '.\.cache'
+requirements = []
+[contracts.Farm-Investment-Contraacts]
+path = 'contracts/Farm-Investment-Contraacts.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.Farm-Investment-Milestones]
+path = 'contracts/Farm-Investment-Milestones.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.Farm-Investment-Insurance]
+path = 'contracts/Farm-Investment-Insurance.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.Farm-Investment-Governance]
+path = 'contracts/Farm-Investment-Governance.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.Farm-Investment-Analytics]
+path = 'contracts/Farm-Investment-Analytics.clar'
+clarity_version = 3
+epoch = 3.1
+[contracts.Farm-Investment-Rewards]
+path = 'contracts/Farm-Investment-Rewards.clar'
+clarity_version = 3
+epoch = 3.1
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
+
+[repl.remote_data]
+enabled = false
+api_url = 'https://api.hiro.so'
